@@ -1,0 +1,67 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-left: 14.5em;
+    padding-right: 14.5em;
+    line-height: 1.5;
+}
+header {
+    font-size: 3em;
+    line-height: 1.5;
+    border-bottom: 2px solid black;;
+}
+h1 {
+    margin-bottom: 0.3em;
+}
+header p {
+    margin-bottom: 0;
+}
+main {
+    display: inline-block;
+   
+    margin-top: 0;  
+}
+.imgg {
+    width: 170px;
+  height: 270px;
+    float: right;
+    padding: 0.5em;
+    margin: 0.5em;
+  border: 3px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.block {
+    display: inline-block;
+    width: 47%;
+    padding-right: 1em;
+    border-right: 3px solid gray;    
+}
+.bblock {
+    width: 47%;
+    float: right;
+    padding-left: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.author {
+    font-family: 'Times New Roman', Times, serif;
+    width: 15%;
+    margin: 0;
+    float: right;
+    position: relative;
+    bottom: 7em;
+    left: 2em;
+
+}
+.imgSecond {
+    
+    float: left;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
