@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+html{
+    box-sizing: border-box
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0.5em;
+    border: 3px solid black;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: rgb(5, 2, 59);
+    height: 2.5cm;
+}
+header h1{
+   color: rgb(0, 247, 255);
+   padding-left: 0.3em;
+   font-size: 3em;
+}
+header p{
+    color: white;
+    vertical-align: bottom;
+    padding-left: 0.8em;
+    font-size: 1.2em;
+}
+main{
+    display: flex;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2.5em;
+    margin-bottom: 4.5em;
+}
+.leftside{
+    border: 1px solid black;
+}
+main img {
+    box-sizing: border-box;
+    padding: 1em;
+    padding-top: 0.5em;
+    width: 25em;
+}
+.leftside p{
+    box-sizing: border-box;
+    width: 23em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+}
+.rightside p{
+    font-size: 2.5em;
+    margin-right: 1.5em;
+    margin-left: 1.2em;
+}
+section h2{
+    background-color:rgb(5, 2, 59) ;
+    color: white;
+    width: 25%;
+    text-align: center;
+    font-size: 2.5em;
+}
+.facts{
+    background-color: rgb(165, 250, 241);
+    font-size: 2em;
+    box-sizing: border-box;
+    padding: 1.2em;
+}
